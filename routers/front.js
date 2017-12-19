@@ -50,7 +50,10 @@ function buildDGMOrganizationsVar(){
       for(var result of body.results ){
         organizations.push(result.name);
       }
+<<<<<<< HEAD
       console.log(organizations)
+=======
+>>>>>>> 9f4d5f873a627f96b2aaa8702ed30d10b7350ffa
     }
   });
 }
